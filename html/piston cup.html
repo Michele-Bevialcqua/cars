@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benvenuto alla Piston Cup!</title>
+    <link rel="stylesheet" href="../css/piston cup.css">
+</head>
+<body>
+    <div class="back"><button><a href="../html/schermata di scelta.html">Indietro</a></button></div>
+    
+    <h1>Benvenuto all'edizione di quest anno della Piston Cup!</h1>
+    <h3>Indovina il personaggio!</h3> 
+    <p id="suggerimento"></p>
+
+    <select name="personaggi" class="tendinaPersonaggi" id="dropdownNames">
+        <option value="saetta">Saetta McQueen</option>
+        <option value="storm">Jackson Storm</option>
+        <option value="ramirez">Cruz Ramirez</option>
+        <option value="hicks">Chick Hicks</option>
+        <option value="fritter">Miss Fritter</option>
+        <option value="smokey">Smokey</option>
+        <option value="mack">Mack</option>
+        <option value="cartrip">Darrell Cartrip</option>
+        <option value="cutlass">Bob Cutlass</option>
+    </select>
+
+    <button class="submit" onclick="tentativoCheck()">Invio</button>
+    <div class="difficoltà">
+    <h4>Difficoltà: </h4><h4 id="difficoltà"></h4>
+    </div>
+    <p id="feedback"></p>
+    <button class="giocaAncora" id="giocaAncora" onclick="playAgain()">Gioca Ancora!</button>
+
+    <script src="../js/piston cup.js"></script>
+</body>
+</html> 

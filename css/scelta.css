@@ -1,0 +1,82 @@
+body{
+    background-image: url(../img/scelta\ background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    background-color: rgba(51, 51, 51, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.scelte{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.scelte a{
+    font-size: 2em;
+    color: white;
+}
+
+.scelte button{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 15vw;
+    height: 80px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    background-color: rgba(51, 51, 51, 0.8);}
+
+.scelte a:hover{
+    color: gold;
+    transition: 0.5s;
+}
+
+button{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 15vw;
+    height: 45px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.back{
+    position: fixed;
+    z-index: 9999;
+    margin-right: 94vw;
+    margin-top: 60vh;
+}
+
+.back button{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.back a{
+    color: white;
+    text-decoration: none;
+}

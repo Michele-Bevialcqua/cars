@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benvenuto a Radiator Springs?</title>
+    <link rel="stylesheet" href="../css/radiator springs.css">
+</head>
+<body>
+    <div class="back"><button><a href="../html/schermata di scelta.html">Indietro</a></button></div>
+
+    <h1>Benvenuto a Radiator Springs!</h1>
+    <h3>Indovina il personaggio!</h3>
+    <p id="suggerimento"></p>
+
+    <select name="personaggi" class="tendinaPersonaggi" id="dropdownNames">
+        <option value="saetta">Saetta McQueen</option>
+        <option value="sally">Sally Carrera</option>
+        <option value="cricchetto">Cricchetto</option>
+        <option value="luigi">Luigi</option>
+        <option value="guido">Guido</option>
+        <option value="flo">Flo</option>
+        <option value="doc">Doc Hudson</option>
+        <option value="lizzie">Lizzie</option>
+        <option value="ramone">Ramone</option>
+        <option value="fillmore">Fillmore</option>
+        <option value="sergente">Sergente</option>
+        <option value="sceriffo">Sceriffo</option>
+    </select>
+
+    <button class="submit" onclick="tentativoCheck()">Invio</button>
+    <div class="difficoltà">
+    <h4>Difficoltà: </h4><h4 id="difficoltà"></h4>
+    </div>
+    <p id="feedback"></p>
+    <button class="giocaAncora" id="giocaAncora" onclick="playAgain()">Gioca Ancora!</button>
+
+    <script src="../js/radiator springs.js"></script>
+</body>
+</html>
